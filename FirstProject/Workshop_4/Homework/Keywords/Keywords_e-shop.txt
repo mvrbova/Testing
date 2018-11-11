@@ -1,0 +1,17 @@
+*** Settings ***
+Library    SeleniumLibrary
+
+*** Variables ***
+${url}	http://automationpractice.com/index.php?id_category=3&controller=category
+${browser}	chrome
+
+*** Keywords ***
+Open Eshop Webpage
+    [Arguments]    ${url}
+    Open Browser    ${url}    ${browser}
+    Maximize Browser Window
+    
+        
+Capture Screenshot And Close Browser
+    Capture Page Screenshot    
+    Close Browser
