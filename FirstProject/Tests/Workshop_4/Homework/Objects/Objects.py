@@ -1,6 +1,6 @@
 #SORTING
 ## Main Page
-link_dresses = "class=sf-with-ul">Dresses</a>
+link_dresses = "class=sf-with-ul"
 
 ## Following page
 link_summer_dresses = "img class=replace-2x"
